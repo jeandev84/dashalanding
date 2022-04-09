@@ -245,9 +245,22 @@ section#services {
 .service-title {
     display: block;
     padding: 10px 15px;
+    position: relative;
     cursor: pointer;
     color: #eeeeee;
     transition: background .3s ease-out;
+}
+
+.service-title:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
 }
 
 .service-title:hover {
@@ -280,6 +293,12 @@ section#services {
 
 .service-input:checked ~ .service-title {
     background-color: #ed2204; /* при обращении к титлу оставим красный цвет, можно заменить на другой цвет */
+}
+
+.service-input:checked ~ .service-title:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #fff transparent;
 }
 
 .service-input:checked ~ .service-text {
