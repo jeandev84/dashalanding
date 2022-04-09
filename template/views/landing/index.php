@@ -16,6 +16,11 @@
         {% includePath('landing/sections/tasks.php') %}
     </div>
 </section>
+<section id="services" class="section__text__center">
+    <div class="container">
+        {% includePath('landing/sections/services.php') %}
+    </div>
+</section>
 <section id="blog" class="bg_belgian section__text__center">
     <div class="container">
         {% includePath('landing/sections/blog.php') %}
