@@ -71,7 +71,7 @@ a {
 
 .bg_red_pretty {
     background-color: #ed2204;
-    color: #fff;
+    color: #ccc;
     text-align: center;
     font-weight: 600;
 }
@@ -79,6 +79,20 @@ a {
 .bg_red_pretty:hover {
    color: #fff;
    text-decoration: none;
+}
+
+
+.btn__send__me {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+
+.text__pretty {
+    font-weight: 300;
+    line-height: 1.55;
 }
 
 .text_red_pretty {
@@ -154,8 +168,10 @@ section article h2 {
     text-align: center;
 }
 
-.section__social_links li a i {
+.section__social_links li a i,
+p.section__social_links a i {
     font-size: 18px;
+    text-decoration: none;
 }
 
 

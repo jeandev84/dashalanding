@@ -1,6 +1,6 @@
 <article>
     <h2>Какие проблемы я помогу решить</h2>
-    <div class="row text-lg-left">
+    <div class="row text-lg-left text__pretty">
         <div class="col-md-4">
             <img src="" alt="">
             <p>
