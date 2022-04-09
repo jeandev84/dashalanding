@@ -9,10 +9,14 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box;
     color: #1a1a1a;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Open Sans',Arial,sans-serif;
@@ -37,7 +41,8 @@ section h2 {
 
 section#tasks,
 section#blog,
-section#feedback {
+section#feedback,
+section#services{
     padding-bottom: 10%;
 }
 
@@ -97,6 +102,12 @@ a {
 
 .text_red_pretty {
     color: #ed2204;
+}
+
+.text__pretty__border__red {
+    font-weight: 300;
+    line-height: 1.55;
+    border: 1px solid #ed2204;
 }
 
 /** Navigation styles */
@@ -219,4 +230,58 @@ section#tasks {
 /* Section contact styles */
 section#contact {
 
+}
+
+
+/* Section service */
+
+section#services {
+    /*
+      background-color: #eeeeee!important;
+      border: 1px solid #cccccc;
+    */
+}
+
+.service-title {
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #eeeeee;
+    transition: background .3s ease-out;
+}
+
+.service-title:hover {
+   color: #fff;
+}
+
+.service {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-item {
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid #ed2204; */
+}
+
+.service-text {
+    display: none;
+}
+
+.service-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+
+.service-input:checked ~ .service-title {
+    background-color: #ed2204; /* при обращении к титлу оставим красный цвет, можно заменить на другой цвет */
+}
+
+.service-input:checked ~ .service-text {
+   display: block;
 }
