@@ -280,6 +280,7 @@ section#services {
 
 .service-text {
     display: none;
+    padding: 10px;
 }
 
 .service-input {
@@ -303,4 +304,9 @@ section#services {
 
 .service-input:checked ~ .service-text {
    display: block;
+}
+
+.service .service__price {
+    display: block;
+    text-align: left;
 }
