@@ -1,0 +1,206 @@
+/* General styles */
+:root {
+    --primary-color: #212121;
+    --background-color: #111;
+    --font: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #1a1a1a;
+}
+
+
+body {
+    font-family: 'Open Sans',Arial,sans-serif;
+    background-color: #FBFBFB!important;
+}
+
+
+section {
+    display: block;
+    width: 100%;
+}
+
+
+section h2, section#about article h3 {
+    text-align: center;"
+}
+
+section h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section#tasks,
+section#blog,
+section#feedback {
+    padding-bottom: 10%;
+}
+
+button {
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*
+.fixed-container {
+    padding: 0 20px;
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+*/
+
+
+.bg_belgian {
+    background-color: #f5f1f0;
+}
+
+
+.bg_red_pretty {
+    background-color: #ed2204;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.bg_red_pretty:hover {
+   color: #fff;
+   text-decoration: none;
+}
+
+.text_red_pretty {
+    color: #ed2204;
+}
+
+/** Navigation styles */
+nav#section__navbar{
+    padding-left: 0;
+}
+
+nav#section__navbar ul li a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav#section__navbar ul li a.nav-link {
+    color: #484848;
+}
+
+nav#section__navbar .navbar-brand {
+    color: #484848!important;
+}
+
+
+/** Section main */
+section#main {
+    height: 750px;
+}
+
+section#about,
+section#tasks,
+section#blog,
+section#feedback,
+section#contact {
+    /*
+    position: relative;
+    top: 100vh;
+    */
+}
+
+section#main article {
+   margin-top: 20%;
+   color: #fff;
+}
+
+
+section#main article div p {
+  font-weight: 300;
+  line-height: 1.55;
+}
+
+section#main article a {
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 14px!important;
+}
+
+section#main article a.bg_red_pretty{
+    font-weight: 600;
+}
+
+
+section article h2 {
+    text-align: center;
+}
+
+.section__text__center {
+    text-align: center;
+}
+
+.section__social_links li a i {
+    font-size: 18px;
+}
+
+
+section#main article #main__image__gif,
+section#about article #about__img__gif {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#about article #about__img__gif {
+    width: 100%;
+    height: 600px;
+    padding-top: 20%;
+    background-size: contain;
+    /* border: 1px solid #ccc; */
+}
+
+/* Section about me styles */
+
+section#about {
+   /* border: 1px solid #ccc; */
+}
+
+section#about article h3 {
+    font-weight: 600;
+}
+
+section#about article ul {
+    margin-left: 0; padding: 10px;
+}
+
+section#about article ul li {
+    list-style-type: square;
+}
+
+
+/* Section tasks */
+
+section#tasks {
+   padding-bottom: 10%;
+}
+
+/* Section contact styles */
+section#contact {
+
+}
