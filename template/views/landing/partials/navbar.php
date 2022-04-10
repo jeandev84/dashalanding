@@ -14,6 +14,9 @@
                     <a href="#services" class="nav-link">Услуги</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                </li>
+                <li class="nav-item">
                     <a href="#blog" class="nav-link">Блог</a>
                 </li>
             </ul>

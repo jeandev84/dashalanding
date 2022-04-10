@@ -76,8 +76,10 @@ a {
 
 
 .bg_red_pretty {
-    background-color: #ed2204;
-    color: #ccc;
+    /* background-color: #ed2204; */
+    background-color: #9BADE1;
+    /* color: #ccc; */
+    color: #fff;
     text-align: center;
     font-weight: 600;
 }
@@ -85,6 +87,7 @@ a {
 .bg_red_pretty:hover {
    color: #fff;
    text-decoration: none;
+   background-color: #597CE2;
 }
 
 
@@ -102,13 +105,15 @@ a {
 }
 
 .text_red_pretty {
-    color: #ed2204;
+    /* color: #ed2204; */
+    color: #9BADE1;
 }
 
 .text__pretty__border__red {
     font-weight: 300;
     line-height: 1.55;
-    border: 1px solid #ed2204;
+    /* border: 1px solid #ed2204; */
+    border: 1px solid #9BADE1;
 }
 
 /** Navigation styles */
@@ -265,6 +270,7 @@ section#services {
 }
 
 .service-title:hover {
+   background-color: #597CE2;
    color: #fff;
 }
 
@@ -294,7 +300,8 @@ section#services {
 
 
 .service-input:checked ~ .service-title {
-    background-color: #ed2204; /* при обращении к титлу оставим красный цвет, можно заменить на другой цвет */
+    /* background-color: #ed2204; *//* при обращении к титлу оставим красный цвет, можно заменить на другой цвет */
+    background-color: #597CE2;
 }
 
 .service-input:checked ~ .service-title:after {
