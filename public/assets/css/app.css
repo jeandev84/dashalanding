@@ -104,9 +104,13 @@ a {
     line-height: 1.55;
 }
 
-.text_red_pretty {
+.text_blue_pretty {
     /* color: #ed2204; */
     color: #9BADE1;
+}
+
+.text_blue_bold__pretty {
+    color: #597CE2;
 }
 
 .text__pretty__border__red {

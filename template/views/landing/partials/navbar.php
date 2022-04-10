@@ -1,9 +1,7 @@
 <nav id="section__navbar" class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="logo">
-            <a href="{{ route('home') }}" class="navbar-brand">
-                {{ app_name() }}<span class="text_red_pretty">.ru</span>
-            </a>
+            <a href="{{ route('home') }}" class="navbar-brand">{{ app_name() }}<span class="text_blue_bold__pretty">.ru</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
