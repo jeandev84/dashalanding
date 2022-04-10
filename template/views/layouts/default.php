@@ -12,9 +12,12 @@
 <body>
      {{ content }}
 
- <!--
-<script src="{{ asset('/assets/bootstrap/js/bootstrap.min.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/assets/js/jquery.min.js') }}" type="application/javascript"></script>
 <script src="{{ asset('/assets/js/app.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/assets/js/scroll.js') }}" type="application/javascript"></script>
+<!--
+<script src="{{ asset('/assets/bootstrap/js/bootstrap.min.js') }}" type="application/javascript"></script>
 -->
+
 </body>
 </html>
