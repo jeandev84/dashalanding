@@ -39,7 +39,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 /*
 |-------------------------------------------------------
-|    Require bootstrap of Application
+|    Get instance of Application
 |-------------------------------------------------------
 */
 
