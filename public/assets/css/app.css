@@ -25,9 +25,48 @@ body {
 
 
 section {
-    display: block;
+    height: 100vh;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
 }
+
+
+header {
+    position: fixed;
+    z-index: 10;
+}
+
+section#main {
+    top: 0;
+}
+
+
+section#about {
+    top: 100vh;
+}
+
+section#tasks {
+   top: 200vh;
+}
+
+section#services {
+   top: 300vh;
+}
+
+section#blog {
+   top: 400vh;
+}
+
+section#feedback {
+   top: 500vh;
+}
+
+section#contact {
+   top: 600vh;
+}
+
 
 
 section h2, section#about article h3 {
@@ -130,20 +169,6 @@ nav#section__navbar .navbar-brand {
 
 
 /** Section main */
-section#main {
-    height: 750px;
-}
-
-section#about,
-section#tasks,
-section#blog,
-section#feedback,
-section#contact {
-    /*
-    position: relative;
-    top: 100vh;
-    */
-}
 
 section#main article {
    margin-top: 20%;
