@@ -9,19 +9,19 @@
             </div>
             <div class="">
                 <label for="phone"></label>
-                <input type="tel" id="phone" name="phone" value="" placeholder="+7 900 000-00-00" class="form-control">
+                <input type="tel" id="phone" name="phone" value="" placeholder="+7 (900) 000-00-00" class="form-control">
             </div>
             <div class="form-group">
                 <label for="comment"></label>
                 <textarea name="comment"
                           id="comment"
                           cols="30" rows="10"
-                          placeholder="Comment"
+                          placeholder="Описание комментарии ..."
                           class="form-control"
                           style="resize: none;"
                 ></textarea>
             </div>
-            <button type="submit" class="bg_red_pretty btn__send__me">Отправить</button>
+            <button type="submit" class="bg_red_pretty btn__send__me" title="хотите отправить ?">Отправить</button>
         </div>
     </form>
 </article>

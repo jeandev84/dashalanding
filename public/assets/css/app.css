@@ -268,7 +268,7 @@ section#services {
 }
 
 .service {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -309,4 +309,8 @@ section#services {
 .service .service__price {
     display: block;
     text-align: left;
+}
+
+.service .service__price span {
+    font-weight: 600;
 }
