@@ -12,9 +12,11 @@
 <body>
      {{ content }}
 
-<script src="{{ asset('/assets/js/jquery.min.js') }}" type="application/javascript"></script>
+<!--<script src="{{ asset('/assets/js/jquery.min.js') }}" type="application/javascript"></script>-->
+<script src="{{ asset('/assets/jquery/jquery-3.3.1.min.js') }}" type="application/javascript"></script>
 <script src="{{ asset('/assets/js/app.js') }}" type="application/javascript"></script>
-<script src="{{ asset('/assets/js/scroll.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/assets/js/scrollLink.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/assets/js/scrollTopPage.js') }}" type="application/javascript"></script>
 <!--
 <script src="{{ asset('/assets/bootstrap/js/bootstrap.min.js') }}" type="application/javascript"></script>
 -->

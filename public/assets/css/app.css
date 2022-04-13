@@ -326,3 +326,54 @@ section#services {
 .service .service__price span {
     font-weight: 600;
 }
+
+
+/* Button Top */
+
+.back__to__top {
+    position: fixed;
+    right: 10px;
+    bottom: 200px;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: #9bade1;
+    display: none;
+}
+
+
+.back__to__top:hover,
+.back__to__top:focus {
+    /*
+    filter: brightness(1.5);
+    outline: none;
+    */
+    background-color: #597CE2;
+}
+
+.back__to__top::before,
+.back__to__top::after {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.back__to__top::before {
+   width: 5px;
+   height: 20px;
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+   background-color: #f5f0f6;
+}
+
+
+.back__to__top::after {
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid #f5f0f6;
+    border-left: 5px solid #f5f0f6;
+}
