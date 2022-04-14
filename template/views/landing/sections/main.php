@@ -16,6 +16,8 @@
              -->
             <a href="#feedback" class="nav-link bg_red_pretty">Связаться</a>
         </div>
-        <div id="main__image__gif" class="col-md-6" style="background-image: url('{{ asset('/assets/img/main.gif') }}')"></div>
+        <div class="col-md-6">
+            <div id="main__image__gif" style="background-image: url('{{ asset('/assets/img/main.gif') }}')"></div>
+        </div>
     </div>
 </article>

@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     /* background-color: #FBFBFB!important; */
     background-color: #fbfbfb;
 }
@@ -28,8 +28,44 @@ body {
 section {
     display: block;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    /* position: absolute;
+    overflow: hidden;
+    */
 }
 
+
+/*
+section#main {
+    top: 0;
+}
+
+
+section#about {
+    top: 100vh;
+}
+
+section#tasks {
+    top: 200vh;
+}
+
+section#services {
+    top: 300vh;
+}
+
+section#blog {
+    top: 400vh;
+}
+
+section#feedback {
+    top: 500vh;
+}
+
+section#contact {
+    top: 600vh;
+}
+*/
 
 section h2, section#about article h3 {
     text-align: center;"
@@ -140,8 +176,9 @@ nav#section__navbar .navbar-brand {
 
 
 /** Section main */
+
 section#main {
-    height: 750px;
+    min-height: 820px;
 }
 
 section#about,
@@ -199,18 +236,23 @@ p.section__social_links a i {
 section#main article #main__image__gif,
 section#about article #about__img__gif {
     display: block;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 20%;
+}
+
+
+section#main article #main__image__gif {
+    background-size: cover;
+    height: 100%;
 }
 
 section#about article #about__img__gif {
-    width: 100%;
     height: 600px;
-    padding-top: 20%;
     background-size: contain;
-    /* border: 1px solid #ccc; */
 }
+
 
 /* Section about me styles */
 
@@ -236,6 +278,55 @@ section#about article ul li {
 section#tasks {
    padding-bottom: 10%;
 }
+
+
+section#tasks .task-items .before-timeline,
+section#tasks .task-items .timeline,
+section#tasks .task-items .after-timeline
+{
+    border: 1px solid #ccc;
+}
+/*
+section#tasks .task-blocks {
+    border: 1px solid #000;
+}
+
+section#tasks .task-blocks .task-items {
+   margin: auto 50%;
+   border: 1px solid #e0a800;
+   min-width: 100px;
+}
+
+section#tasks #task-item-blue {
+    background-color: #7998DB;
+}
+
+section#tasks #task-item-blue-light {
+    background-color: #85D9D9;
+}
+
+section#tasks #task-item-green-light {
+    background-color: #77DFA6
+}
+
+section#tasks .task-item {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 400px;
+}
+
+section#tasks .task-item:nth-child(odd) {
+    background-color: #739DD9;
+}
+
+
+section#tasks .task-item:nth-child(even) {
+    background-color: #78C5C5;
+    margin-left: 50px;
+}
+
+*/
+
 
 /* Section contact styles */
 section#contact {
