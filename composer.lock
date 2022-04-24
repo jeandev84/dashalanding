@@ -83,12 +83,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeandev84/laventure-framework.git",
-                "reference": "1ffb7835b4b8afb87ede5f8da9da27823aa213d1"
+                "reference": "e3a9f89ae250037b38307bbaf7097bacdb371596"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeandev84/laventure-framework/zipball/1ffb7835b4b8afb87ede5f8da9da27823aa213d1",
-                "reference": "1ffb7835b4b8afb87ede5f8da9da27823aa213d1",
+                "url": "https://api.github.com/repos/jeandev84/laventure-framework/zipball/e3a9f89ae250037b38307bbaf7097bacdb371596",
+                "reference": "e3a9f89ae250037b38307bbaf7097bacdb371596",
                 "shasum": ""
             },
             "require": {
@@ -128,7 +128,7 @@
                 "source": "https://github.com/jeandev84/laventure-framework",
                 "wiki": "https://github.com/jeandev84/laventure-framework/wiki"
             },
-            "time": "2022-04-08T00:40:24+00:00"
+            "time": "2022-04-14T18:59:30+00:00"
         },
         {
             "name": "psr/log",

@@ -15,9 +15,14 @@
 
 <!--<script src="{{ asset('/assets/js/jquery.min.js') }}" type="application/javascript"></script>-->
 <script src="{{ asset('/assets/jquery/jquery-3.3.1.min.js') }}" type="application/javascript"></script>
+<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+-->
+<script src="{{ asset('/assets/js/SmoothScroll.min.js') }}" type="application/javascript"></script>
 <script src="{{ asset('/assets/js/app.js') }}" type="application/javascript"></script>
 <script src="{{ asset('/assets/js/scrollLink.js') }}" type="application/javascript"></script>
 <script src="{{ asset('/assets/js/scrollTopPage.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/assets/js/cursorEffect.js') }}" type="application/javascript"></script>
 <!--
 <script src="{{ asset('/assets/bootstrap/js/bootstrap.min.js') }}" type="application/javascript"></script>
 -->

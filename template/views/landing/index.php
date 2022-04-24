@@ -1,10 +1,13 @@
+<header>
+    <div class="container">
+        {% includePath('landing/partials/navbar.php') %}
+    </div>
+</header>
 <section id="main">
     <div class="container">
-           <header>
-               {% includePath('landing/partials/navbar.php') %}
-               {% includePath('landing/sections/main.php') %}
-           </header>
+        {% includePath('landing/sections/main.php') %}
     </div>
+    <canvas class="paints" width="100%"></canvas>
 </section>
 <section id="about">
     <div class="container">

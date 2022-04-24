@@ -471,13 +471,34 @@ section#services {
 
 
 /* MOUSE MOVE EFFECT */
+section#main {
+    position: relative;
+}
 
 section#main .paints {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
     top: 0;
+    width: 100vw;
 }
 
 
+/*
+.paints {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+*/
 
+
+.container {
+    z-index: 1000;
+}
+.paints {
+    /*
+    display: block;
+    width: inherit;
+    height: inherit;
+     height: 100vh;
+    width: 100vw;
+    */
+}
