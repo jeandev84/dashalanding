@@ -1,6 +1,9 @@
 <article>
     <div class="row">
         <div class="col-md-6">
+            <div id="main__image__gif" style="background-image: url('{{ asset('/assets/img/main.gif') }}')"></div>
+        </div>
+        <div class="col-md-6 p-5">
             <h1>Ваш персональный <br>Энерготерапевт</h1>
             <p>Чистка и гармонизация вашей энергетики, <br>диагностика негатива, консультация и анализ психосостояния.</p>
             <!--
@@ -14,10 +17,7 @@
                  В этом мире все взаимосвязано. И если ты способен на большее - тебе кажется. Это не большее. Это именно то, чего от тебя ждут.
              </p>
              -->
-            <a href="#feedback" class="nav-link bg_red_pretty">Связаться</a>
-        </div>
-        <div class="col-md-6">
-            <div id="main__image__gif" style="background-image: url('{{ asset('/assets/img/main.gif') }}')"></div>
+<!--            <a href="#feedback" class="nav-link bg_red_pretty">Связаться</a>-->
         </div>
     </div>
 </article>

@@ -1,53 +1,52 @@
-<!-- <div class="container"> -->
-<div class="row">
-    <div class="col-md-12">
-        <div class="main-timeline">
-            <div class="timeline">
-                <a href="" class="timeline-content">
-                    <div class="timeline-icon">
-                        <i class="fa fa-globe"></i>
+<div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <!--
+                                <span class="year"><span>2018</span></span>
+                                <h3 class="title"></h3>
+                                -->
+                                <p class="description">
+                                    Вы испытываете дискомфорт и упадок сил
+                                    Вы ходите по врачам, но диагноз неясен и непонятен.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="timeline-year"> 1</div>
-                    <div class="inner-content">
-                        <!-- <h3 class="title">Web Designing</h3> -->
-                        <p class="description">
-                            Вы испытываете дискомфорт и упадок сил
-                            Вы ходите по врачам, но диагноз неясен и непонятен.
-                        </p>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <!--
+                                <span class="year"><span>2017</span></span>
+                                <h3 class="title"></h3>
+                                -->
+                                <p class="description">
+                                    Ваша энергия на нуле и нет сил продолжать радоваться жизни
+                                    Ощущение пустоты.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </a>
-            </div>
-            <div class="timeline">
-                <a href="" class="timeline-content">
-                    <div class="timeline-icon">
-                        <i class="fa fa-rocket"></i>
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <!--
+                                <span class="year"><span>2016</span></span>
+                                <h3 class="title"></h3>
+                                -->
+                                <p class="description">
+                                    Проблемы в отношениях с близкими людьми
+                                    Вы боретесь с болезнью продолжительное время или только начали.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="timeline-year"> 2 </div>
-                    <div class="inner-content">
-                        <!--<h3 class="title">Web Development</h3>-->
-                        <p class="description">
-                            Ваша энергия на нуле и нет сил продолжать радоваться жизни
-                            Ощущение пустоты.
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="timeline">
-                <a href="" class="timeline-content">
-                    <div class="timeline-icon">
-                        <i class="fa fa-rocket"></i>
-                    </div>
-                    <div class="timeline-year"> 3 </div>
-                    <div class="inner-content">
-                        <!--<h3 class="title">Web Development</h3>-->
-                        <p class="description">
-                            Проблемы в отношениях с близкими людьми
-                            Вы боретесь с болезнью продолжительное время или только начали.
-                        </p>
-                    </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!--</div>-->

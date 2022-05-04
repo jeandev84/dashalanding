@@ -83,6 +83,10 @@ section#services{
     padding-bottom: 10%;
 }
 
+a, button {
+    cursor: pointer;
+}
+
 button {
     border-style: none;
 }
@@ -471,12 +475,11 @@ section#services {
 
 
 /* MOUSE MOVE EFFECT */
-
 section#main .paints {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 7%;
 }
 
 
